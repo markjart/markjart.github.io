@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html Lang="us-en">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<!-- had bulk of the layout and structures in place before learning about reset.css so not used for this project...
+			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		-->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Mark Jasinski - Portfolio</title>
 	</head>
 	<body>
-		<header>Header</header>
-		<nav>Navigation</nav>
-		<section>Section</section>
-		<article>Article</article>
-		<aside>Aside</aside>
-		<footer>Footer</footer>
+	<section class="mast">
+		<header>
+			<h1>Mark Jasinski</h1> 
+			<nav id="int">
+				<a href="index.html">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="portfolio.html">Portfolio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="contact.html">Contact</a>
+			</nav>
+		</header>
+	</section>	
+		<div class="mid">		
+			<section class="formInfo">
+				<h2>Contact Me</h2>
+				<hr>
+				<form>
+					Name:<br>
+					<input type="text" name="name" placeholder="Your Name">
+					<br><br>
+					Email:<br>
+					<input type="text" name="email" placeholder="You@email.com">
+					<br><br>
+					Message:<br>
+					<textarea name="message" placeholder="Have a Swell Day..."></textarea>
+					<br><br>
+					<input class="submt" type="submit" value="Submit">
+				</form> 
+			</section>
+			<nav id="ext">
+				<h3>Connect with Me</h3>
+				<hr>
+				<div class="inlineBox">
+				<a href="https://github.com/markjart" target="_blank"><img src="assets/images/if_github2_252065.ico" class="ico" alt="GitHub"></a>
+				<a href="https://www.facebook.com/markjart" target="_blank"><img src="assets/images/if_facebook_386622.ico" class="ico" alt="Facebook"></a>
+				<a href="https://stackoverflow.com/users/story/9146704" target="_blank"><img src="assets/images/if_overflow_386674.ico" class="ico" alt="Stack Overflow"></a>
+				</div>
+			</nav>
+		</div>		
+		<footer>
+			<p class="foot">&copy; Copyright Mark Jasinski</p>
+		</footer>
+
 	</body>
 </html>

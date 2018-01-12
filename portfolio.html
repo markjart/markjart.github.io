@@ -1,15 +1,83 @@
 <!DOCTYPE html>
-<html Lang="us-en">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<!-- had bulk of the layout and structures in place before learning about reset.css so not used for this project...
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		-->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Mark Jasinski - Portfolio</title>
 	</head>
 	<body>
-		<header>Header</header>
-		<nav>Navigation</nav>
-		<section>Section</section>
-		<article>Article</article>
-		<aside>Aside</aside>
-		<footer>Footer</footer>
+		<section class="mast">
+			<header>
+			<h1>Mark Jasinski</h1>
+			<nav id="int">
+				<a href="index.html">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="portfolio.html">Portfolio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="contact.html">Contact</a>
+			</nav>
+			</header>
+		</section>	
+		<div class="mid">		
+		<section class="portfolio">
+			<h2>Portfolio</h2>
+			<hr>
+			<div class="imgContainer">
+				<a href="http://www.poetamerican.com/2010/11/painting-mote.html" target="_blank">
+					<h5>mote</h5>
+					<img src="assets/images/mote.png" class="port" alt="mote">
+				</a>
+			</div>
+			<div class="imgContainer">
+				<a href="http://www.poetamerican.com/2010/11/painting-mommy-come-play.html" target="_blank">
+					<h5>Mommy Come Play</h5>
+					<img src="assets/images/mommyComePlay.png" class="port" alt="Mommy Come Play">
+				</a>
+			</div>
+			<div class="imgContainer">
+				<a href="http://www.poetamerican.com/2010/12/crosses-triptych-acrylic-on-canvas-2010.html" target="_blank">
+					<h5>Three Crosses</h5>
+					<img src="assets/images/threeCrosses.png" class="port" alt="Three Crosses">
+				</a>
+			</div>
+			<div class="imgContainer">
+				<a href="http://www.poetamerican.com/2010/11/painting-sisters.html" target="_blank">
+					<h5>Sisters</h5>
+					<img src="assets/images/sisters.png" class="port" alt="Sisters">
+				</a>
+			</div>
+			<div class="imgContainer">
+				<a href="http://www.poetamerican.com/2010/11/photo-sunburst.html" target="_blank">
+					<h5>Sunburst</h5>
+					<img src="assets/images/sunburst.png" class="port" alt="Sunburst">
+				</a>
+			</div>
+			<div class="imgContainer">
+				<a href="http://www.poetamerican.com/2010/11/photo-kemah-boardwalk-carousel.html" target="_blank">
+					<h5>Kemah Boardwalk Carousel</h5>
+					<img src="assets/images/kemahBoardwalkCarousel.png" class="port" alt="Kemah Boardwalk Carousel">
+				</a>
+			</div>
+		</section>
+	<nav id="ext">
+		<h3>Connect with Me</h3>
+		<hr>
+		<div class="inlineBox">
+			<a href="https://github.com/markjart" target="_blank">
+				<img src="assets/images/if_github2_252065.ico" class="ico" alt="GitHub">
+			</a>
+			<a href="https://www.facebook.com/markjart" target="_blank">
+				<img src="assets/images/if_facebook_386622.ico" class="ico" alt="Facebook">
+			</a>
+			<a href="https://stackoverflow.com/users/story/9146704" target="_blank">
+				<img src="assets/images/if_overflow_386674.ico" class="ico" alt="Stack Overflow">
+			</a>
+		</div>
+		</nav>
+	</div>
+		<footer>
+			<p class="foot">&copy; Copyright Mark Jasinski</p>
+		</footer>
 	</body>
 </html>
